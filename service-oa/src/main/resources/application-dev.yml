@@ -1,0 +1,16 @@
+server:
+  port: 8800
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  global-config:
+    db-config:
+      logic-delete-value: 1
+      logic-not-delete-value: 0
+spring:
+  datasource:
+    type: com.zaxxer.hikari.HikariDataSource
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/guigu-oa?serveTimezone=GMT%2B8&useSSL=false&characterEncoding=utf-8
+    username: root
+    password: root
