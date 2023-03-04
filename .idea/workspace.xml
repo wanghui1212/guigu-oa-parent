@@ -4,54 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="78d758db-bffe-4602-a6a7-60abda24d756" name="Changes" comment="云尚办公系统的环境搭建">
-      <change afterPath="$PROJECT_DIR$/common/common-util/src/main/java/com/atguigu/common/result/Result.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/common-util/src/main/java/com/atguigu/common/result/ResultCodeEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/model/base/BaseEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/model/process/Process.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/model/process/ProcessRecord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/model/process/ProcessTemplate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/model/process/ProcessType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/model/system/SysDept.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/model/system/SysLoginLog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/model/system/SysMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/model/system/SysOperLog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/model/system/SysPost.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/model/system/SysRole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/model/system/SysRoleMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/model/system/SysUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/model/system/SysUserRole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/model/wechat/Menu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/vo/process/ApprovalVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/vo/process/ProcessFormVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/vo/process/ProcessQueryVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/vo/process/ProcessVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/vo/system/AssginMenuVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/vo/system/AssginRoleVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/vo/system/LoginVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/vo/system/MetaVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/vo/system/RouterVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/vo/system/SysLoginLogQueryVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/vo/system/SysOperLogQueryVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/vo/system/SysPostQueryVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/vo/system/SysRoleQueryVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/vo/system/SysUserQueryVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/vo/wechat/BindPhoneVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/vo/wechat/MenuVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/ServiceAuthApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/controller/SysRoleController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/mapper/SysRoleMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/service/SysRoleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/service/impl/SysRoleServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-oa/src/main/resources/application-dev.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-oa/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-oa/src/test/java/com/atguigu/auth/SysRoleServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-oa/src/test/java/com/atguigu/auth/TestMp01.java" afterDir="false" />
+    <list default="true" id="78d758db-bffe-4602-a6a7-60abda24d756" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/common/service-util/src/main/java/com/atguigu/common/config/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/service-util/src/main/java/com/atguigu/common/config/exception/GuiguException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/service-util/src/main/java/com/atguigu/common/config/knife4j/Knife4jConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/service-util/src/main/java/com/atguigu/common/config/mp/MybatisPlusConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-oa/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/controller/SysRoleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/controller/SysRoleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/service/SysRoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/service/SysRoleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-oa/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/src/main/resources/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-oa/src/test/java/com/atguigu/auth/SysRoleServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/src/test/java/com/atguigu/auth/SysRoleServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,8 +25,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -122,7 +85,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -241,8 +204,17 @@
       <workItem from="1677670838085" duration="5844000" />
       <workItem from="1677739488175" duration="11059000" />
       <workItem from="1677755658065" duration="317000" />
-      <workItem from="1677756430982" duration="1135000" />
+      <workItem from="1677756430982" duration="7731000" />
+      <workItem from="1677912579866" duration="3516000" />
     </task>
+    <task id="LOCAL-00001" summary="角色管理接口的实现">
+      <created>1677757861446</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1677757861446</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -252,6 +224,8 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
+    <MESSAGE value="角色管理接口的实现" />
+    <option name="LAST_COMMIT_MESSAGE" value="角色管理接口的实现" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

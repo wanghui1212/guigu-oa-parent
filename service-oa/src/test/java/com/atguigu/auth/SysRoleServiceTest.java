@@ -67,11 +67,12 @@ public class SysRoleServiceTest {
     }
     @Test
     public void testSelect2(){
-        LambdaQueryWrapper<SysRole> queryWrapper = new LambdaQueryWrapper<>();
+       /* LambdaQueryWrapper<SysRole> queryWrapper = new LambdaQueryWrapper<>();
         queryWrapper.eq(SysRole::getDescription,"游客");
 
         List<SysRole> list = sysRoleService.list(queryWrapper);
-        list.forEach(System.out::println);
+        list.forEach(System.out::println);*/
+        int a = 10/0;
     }
 
 }
