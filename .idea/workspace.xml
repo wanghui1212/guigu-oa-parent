@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="78d758db-bffe-4602-a6a7-60abda24d756" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/service-oa/src/test/java/com/atguigu/code/CodeGet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-oa/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/controller/SysRoleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/controller/SysRoleController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/service/SysRoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/service/SysRoleService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/service/impl/SysRoleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/service/impl/SysRoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/mapper/SysUserRoleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/mapper/xml/SysUserRoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/service/SysUserRoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/service/impl/SysUserRoleServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +34,9 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="1376f468-1179-4317-adc9-e10728884d59" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/common/common-util/src/main/java/com/atguigu/common/result/Result.java" root0="SKIP_INSPECTION" />
@@ -66,6 +67,7 @@
     <option name="sortByType" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -82,7 +84,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -203,7 +205,7 @@
       <workItem from="1677912579866" duration="5528000" />
       <workItem from="1678013457725" duration="7552000" />
       <workItem from="1678109773820" duration="4260000" />
-      <workItem from="1678164114295" duration="2817000" />
+      <workItem from="1678164114295" duration="3147000" />
     </task>
     <task id="LOCAL-00001" summary="角色管理接口的实现">
       <created>1677757861446</created>
@@ -226,20 +228,29 @@
       <option name="project" value="LOCAL" />
       <updated>1678017201650</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="用户管理模块的给用户分配角色和更改用户状态">
+      <created>1678167123739</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1678167123739</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
     <MESSAGE value="角色管理接口的实现" />
     <MESSAGE value="异常处理" />
     <MESSAGE value="登录功能的实现" />
-    <option name="LAST_COMMIT_MESSAGE" value="登录功能的实现" />
+    <MESSAGE value="用户管理模块的给用户分配角色和更改用户状态" />
+    <option name="LAST_COMMIT_MESSAGE" value="用户管理模块的给用户分配角色和更改用户状态" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
