@@ -5,15 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="78d758db-bffe-4602-a6a7-60abda24d756" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/mapper/SysUserRoleMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/mapper/xml/SysUserRoleMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/service/SysUserRoleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/service/impl/SysUserRoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/controller/SysMenuController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/mapper/SysMenuMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/mapper/SysRoleMenuMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/mapper/xml/SysMenuMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/mapper/xml/SysRoleMenuMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/service/SysMenuService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/service/SysRoleMenuService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/service/impl/SysMenuServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/service/impl/SysRoleMenuServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/utils/MenuHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/controller/SysRoleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/controller/SysRoleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-oa/src/test/java/com/atguigu/code/CodeGet.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/src/test/java/com/atguigu/code/CodeGet.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -84,7 +96,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -205,7 +217,9 @@
       <workItem from="1677912579866" duration="5528000" />
       <workItem from="1678013457725" duration="7552000" />
       <workItem from="1678109773820" duration="4260000" />
-      <workItem from="1678164114295" duration="3147000" />
+      <workItem from="1678164114295" duration="3211000" />
+      <workItem from="1678175097486" duration="7631000" />
+      <workItem from="1678186967234" duration="3054000" />
     </task>
     <task id="LOCAL-00001" summary="角色管理接口的实现">
       <created>1677757861446</created>
@@ -235,7 +249,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678167123739</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="用户管理模块的给用户分配角色和更改用户状态">
+      <created>1678167295255</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1678167295255</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

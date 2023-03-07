@@ -129,7 +129,7 @@ public class SysRoleController {
     }
     @ApiOperation(value = "根据用户分配角色")
     @PostMapping("doAssign")
-    public Result toAssign(@RequestBody AssginRoleVo assginRoleVo){
+    public Result doAssign(@RequestBody AssginRoleVo assginRoleVo){
         service.doAssign(assginRoleVo);
         return Result.ok();
     }
