@@ -4,6 +4,7 @@ import com.atguigu.auth.service.SysRoleService;
 import com.atguigu.common.config.exception.GuiguException;
 import com.atguigu.common.result.Result;
 import com.atguigu.model.system.SysRole;
+import com.atguigu.vo.system.AssginRoleVo;
 import com.atguigu.vo.system.SysRoleQueryVo;
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
@@ -15,6 +16,7 @@ import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
+import java.util.Map;
 
 /**
  * @version 1.0
@@ -37,9 +39,9 @@ public class SysRoleController {
         //模拟异常效果
         try {
             int i = 10 / 0;
-        }catch (Exception e){
+        } catch (Exception e) {
 
-            throw new GuiguException(20001,"执行了自定义异常处理...");
+            throw new GuiguException(20001, "执行了自定义异常处理...");
         }
         return Result.ok(list);
     }
@@ -118,5 +120,17 @@ public class SysRoleController {
             return Result.ok();
         else
             return Result.fail();
+    }
+    @ApiOperation(value = "根据用户获取角色数据")
+    @GetMapping("toAssign/{userId}")
+    public Result toAssign(@PathVariable Long userId){
+        Map<String,Object> roleMap = service.findRoleByAdminId(userId);
+        return Result.ok(roleMap);
+    }
+    @ApiOperation(value = "根据用户分配角色")
+    @PostMapping("doAssign")
+    public Result toAssign(@RequestBody AssginRoleVo assginRoleVo){
+        service.doAssign(assginRoleVo);
+        return Result.ok();
     }
 }

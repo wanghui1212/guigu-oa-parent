@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="78d758db-bffe-4602-a6a7-60abda24d756" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/controller/IndexController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/test/java/com/atguigu/code/CodeGet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-oa/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/controller/SysRoleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/controller/SysRoleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/service/SysRoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/service/SysRoleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/service/impl/SysRoleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/service/impl/SysRoleServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +39,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/common/common-util/src/main/java/com/atguigu/common/result/Result.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/service/impl/SysRoleServiceImpl.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/common/common-util/src/main/java/com/atguigu/common/result/ResultCodeEnum.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/ServiceAuthApplication.java" root0="SKIP_INSPECTION" />
   </component>
@@ -69,7 +74,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/model/src/main/java/com" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/service-oa/src/test/java/com/atguigu/code" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -82,22 +87,20 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\developer_code\java_actual_project\guigu-oa-parent\service-oa\src\test\java\com\atguigu\code" />
       <recent name="E:\developer_code\java_actual_project\guigu-oa-parent\model\src\main\java\com" />
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.ServiceAuthApplication">
-    <configuration name="SysRoleServiceTest.testInsert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CodeGet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.code.CodeGet" />
       <module name="service-oa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.atguigu.auth.*" />
+          <option name="PATTERN" value="com.atguigu.code.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.atguigu.auth" />
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.auth.SysRoleServiceTest" />
-      <option name="METHOD_NAME" value="testInsert" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -175,11 +178,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CodeGet" />
         <item itemvalue="JUnit.SysRoleServiceTest.testSelect2" />
         <item itemvalue="JUnit.SysRoleServiceTest.testSelect1" />
         <item itemvalue="JUnit.SysRoleServiceTest.testRemoveById" />
         <item itemvalue="JUnit.SysRoleServiceTest.testUpdateById" />
-        <item itemvalue="JUnit.SysRoleServiceTest.testInsert" />
       </list>
     </recent_temporary>
   </component>
@@ -198,7 +201,9 @@
       <workItem from="1677755658065" duration="317000" />
       <workItem from="1677756430982" duration="7731000" />
       <workItem from="1677912579866" duration="5528000" />
-      <workItem from="1678013457725" duration="3156000" />
+      <workItem from="1678013457725" duration="7552000" />
+      <workItem from="1678109773820" duration="4260000" />
+      <workItem from="1678164114295" duration="2817000" />
     </task>
     <task id="LOCAL-00001" summary="角色管理接口的实现">
       <created>1677757861446</created>
@@ -214,7 +219,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677916250342</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="登录功能的实现">
+      <created>1678017201650</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1678017201650</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -226,7 +238,8 @@
     </ignored-roots>
     <MESSAGE value="角色管理接口的实现" />
     <MESSAGE value="异常处理" />
-    <option name="LAST_COMMIT_MESSAGE" value="异常处理" />
+    <MESSAGE value="登录功能的实现" />
+    <option name="LAST_COMMIT_MESSAGE" value="登录功能的实现" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
