@@ -4,21 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="78d758db-bffe-4602-a6a7-60abda24d756" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/controller/SysMenuController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/mapper/SysMenuMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/mapper/SysRoleMenuMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/mapper/xml/SysMenuMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/mapper/xml/SysRoleMenuMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/service/SysMenuService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/service/SysRoleMenuService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/service/impl/SysMenuServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/service/impl/SysRoleMenuServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/utils/MenuHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/controller/SysRoleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/controller/SysRoleController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-oa/src/test/java/com/atguigu/code/CodeGet.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/src/test/java/com/atguigu/code/CodeGet.java" afterDir="false" />
-    </list>
+    <list default="true" id="78d758db-bffe-4602-a6a7-60abda24d756" name="Changes" comment="权限管理模块-获取用户信息" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -88,7 +74,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/service-oa/src/test/java/com/atguigu/code" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/common/common-util/src/main/java/com/atguigu/common/utils" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -96,11 +82,12 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\developer_code\java_actual_project\guigu-oa-parent\common\common-util\src\main\java\com\atguigu\common\utils" />
       <recent name="E:\developer_code\java_actual_project\guigu-oa-parent\service-oa\src\test\java\com\atguigu\code" />
       <recent name="E:\developer_code\java_actual_project\guigu-oa-parent\model\src\main\java\com" />
     </key>
@@ -119,18 +106,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SysRoleServiceTest.testRemoveById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="service-oa" />
+    <configuration name="JwtHelper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.common.jwt.JwtHelper" />
+      <module name="common-util" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.atguigu.auth.*" />
+          <option name="PATTERN" value="com.atguigu.common.jwt.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.atguigu.auth" />
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.auth.SysRoleServiceTest" />
-      <option name="METHOD_NAME" value="testRemoveById" />
-      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MD5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.common.utils.MD5" />
+      <module name="common-util" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.common.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -167,22 +164,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SysRoleServiceTest.testUpdateById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="service-oa" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.atguigu.auth.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.atguigu.auth" />
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.auth.SysRoleServiceTest" />
-      <option name="METHOD_NAME" value="testUpdateById" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ServiceAuthApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="service-oa" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.auth.ServiceAuthApplication" />
@@ -192,11 +173,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MD5" />
+        <item itemvalue="Application.JwtHelper" />
         <item itemvalue="Application.CodeGet" />
         <item itemvalue="JUnit.SysRoleServiceTest.testSelect2" />
         <item itemvalue="JUnit.SysRoleServiceTest.testSelect1" />
-        <item itemvalue="JUnit.SysRoleServiceTest.testRemoveById" />
-        <item itemvalue="JUnit.SysRoleServiceTest.testUpdateById" />
       </list>
     </recent_temporary>
   </component>
@@ -219,7 +200,9 @@
       <workItem from="1678109773820" duration="4260000" />
       <workItem from="1678164114295" duration="3211000" />
       <workItem from="1678175097486" duration="7631000" />
-      <workItem from="1678186967234" duration="3054000" />
+      <workItem from="1678186967234" duration="5089000" />
+      <workItem from="1678263960312" duration="7024000" />
+      <workItem from="1678274248799" duration="11403000" />
     </task>
     <task id="LOCAL-00001" summary="角色管理接口的实现">
       <created>1677757861446</created>
@@ -256,7 +239,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678167295255</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="菜单管理模块">
+      <created>1678190585339</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1678190585339</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -271,7 +261,20 @@
     <MESSAGE value="异常处理" />
     <MESSAGE value="登录功能的实现" />
     <MESSAGE value="用户管理模块的给用户分配角色和更改用户状态" />
-    <option name="LAST_COMMIT_MESSAGE" value="用户管理模块的给用户分配角色和更改用户状态" />
+    <MESSAGE value="菜单管理模块" />
+    <MESSAGE value="权限管理模块-获取用户信息" />
+    <option name="LAST_COMMIT_MESSAGE" value="权限管理模块-获取用户信息" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
