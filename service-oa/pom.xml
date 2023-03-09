@@ -45,6 +45,11 @@
             <artifactId>velocity-engine-core</artifactId>
             <version>2.0</version>
         </dependency>
+        <dependency>
+            <groupId>com.atguigu</groupId>
+            <artifactId>spring-security</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
     </dependencies>
 
     <build>
@@ -67,7 +72,8 @@
             </resource>
             <resource>
                 <directory>src/main/resources</directory>
-                <includes> <include>**/*.yml</include>
+                <includes>
+                    <include>**/*.yml</include>
                     <include>**/*.properties</include>
                     <include>**/*.xml</include>
                 </includes>

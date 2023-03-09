@@ -11,22 +11,34 @@ import java.util.Date;
  * @Description
  * @Create 2023-03-08 16:52
  */
+
+//jwt工具类
 public class JwtHelper {
+
     private static long tokenExpiration = 365 * 24 * 60 * 60 * 1000;
     private static String tokenSignKey = "123456";
 
+    //根据用户id和用户名称生成token字符串
     public static String createToken(Long userId, String username) {
         String token = Jwts.builder()
+                //分类
                 .setSubject("AUTH-USER")
+
+                //设置token有效时长
                 .setExpiration(new Date(System.currentTimeMillis() + tokenExpiration))
+
+                //设置主体部分
                 .claim("userId", userId)
                 .claim("username", username)
+
+                //签名部分
                 .signWith(SignatureAlgorithm.HS512, tokenSignKey)
                 .compressWith(CompressionCodecs.GZIP)
                 .compact();
         return token;
     }
 
+    //从生成token字符串获取用户id
     public static Long getUserId(String token) {
         try {
             if (StringUtils.isEmpty(token)) return null;
@@ -41,6 +53,7 @@ public class JwtHelper {
         }
     }
 
+    //从生成token字符串获取用户名称
     public static String getUsername(String token) {
         try {
             if (StringUtils.isEmpty(token)) return "";
@@ -55,9 +68,11 @@ public class JwtHelper {
     }
 
     public static void main(String[] args) {
-        String token = JwtHelper.createToken(1L, "LUCY");
+        String token = JwtHelper.createToken(6L, "li4");
         System.out.println(token);
-        System.out.println(JwtHelper.getUserId(token));
-        System.out.println(JwtHelper.getUsername(token));
+        Long userId = JwtHelper.getUserId(token);
+        String username = JwtHelper.getUsername(token);
+        System.out.println(userId);
+        System.out.println(username);
     }
 }

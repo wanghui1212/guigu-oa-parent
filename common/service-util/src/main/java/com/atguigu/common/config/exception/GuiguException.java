@@ -10,20 +10,15 @@ import lombok.Data;
  * @Create 2023-03-04 15:32
  */
 @Data
-public class GuiguException extends RuntimeException{
-    private Integer code;
+public class GuiguException extends RuntimeException {
 
-    private String message;
+    private Integer code;//状态码
+    private String msg;//描述信息
 
-    /**
-     * 通过状态码和错误消息创建异常对象
-     * @param code
-     * @param message
-     */
-    public GuiguException(Integer code, String message) {
-        super(message);
+    public GuiguException(Integer code,String msg) {
+        super(msg);
         this.code = code;
-        this.message = message;
+        this.msg = msg;
     }
 
     /**
@@ -33,7 +28,7 @@ public class GuiguException extends RuntimeException{
     public GuiguException(ResultCodeEnum resultCodeEnum) {
         super(resultCodeEnum.getMessage());
         this.code = resultCodeEnum.getCode();
-        this.message = resultCodeEnum.getMessage();
+        this.msg = resultCodeEnum.getMessage();
     }
 
     @Override

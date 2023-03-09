@@ -13,37 +13,25 @@ import java.util.List;
  * </p>
  *
  * @author atguigu
- * @since 2023-03-07
+ * @since 2023-02-02
  */
 public interface SysMenuService extends IService<SysMenu> {
 
-    /**
-     * 菜单树形数据
-     */
+    //菜单列表接口
     List<SysMenu> findNodes();
 
-    /**
-     * 根据角色获取授权权限数据
-     * @param roleId
-     * @return
-     */
-    List<SysMenu> findSysMenuByRoleId(Long roleId);
+    //删除菜单
+    void removeMenuById(Long id);
 
-    /**
-     * 保存角色权限
-     * @param assginMenuVo
-     */
+    //查询所有菜单和角色分配的菜单
+    List<SysMenu> findMenuByRoleId(Long roleId);
+
+    //角色分配菜单
     void doAssign(AssginMenuVo assginMenuVo);
-    /**
-     * 获取用户菜单
-     * @param userId
-     * @return
-     */
-    List<RouterVo> findUserMenuList(Long userId);
-    /**
-     * 获取用户按钮权限
-     * @param userId
-     * @return
-     */
-    List<String> findUserPermsList(Long userId);
+
+    //4 根据用户id获取用户可以操作菜单列表
+    List<RouterVo> findUserMenuListByUserId(Long userId);
+
+    //5 根据用户id获取用户可以操作按钮列表
+    List<String> findUserPermsByUserId(Long userId);
 }

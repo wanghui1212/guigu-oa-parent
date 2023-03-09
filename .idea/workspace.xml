@@ -4,7 +4,57 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="78d758db-bffe-4602-a6a7-60abda24d756" name="Changes" comment="权限管理模块-获取用户信息" />
+    <list default="true" id="78d758db-bffe-4602-a6a7-60abda24d756" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/smartfox_info.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common-util/src/main/java/com/atguigu/common/result/ResponseUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/spring-security/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/spring-security/src/main/java/com/atguigu/security/config/WebSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/spring-security/src/main/java/com/atguigu/security/custom/CustomMd5PasswordEncoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/spring-security/src/main/java/com/atguigu/security/custom/CustomUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/spring-security/src/main/java/com/atguigu/security/custom/LoginUserInfoHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/spring-security/src/main/java/com/atguigu/security/custom/UserDetailsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/spring-security/src/main/java/com/atguigu/security/filter/TokenAuthenticationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/spring-security/src/main/java/com/atguigu/security/filter/TokenLoginFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/controller/SysUserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/mapper/SysUserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/mapper/xml/SysUserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/service/SysUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/service/impl/SysUserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/service/impl/UserDetailsServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/common-util/src/main/java/com/atguigu/common/jwt/JwtHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/common-util/src/main/java/com/atguigu/common/jwt/JwtHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/common-util/src/main/java/com/atguigu/common/result/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/common-util/src/main/java/com/atguigu/common/result/Result.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/common-util/src/main/java/com/atguigu/common/result/ResultCodeEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/common-util/src/main/java/com/atguigu/common/result/ResultCodeEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/common-util/src/main/java/com/atguigu/common/utils/MD5.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/common-util/src/main/java/com/atguigu/common/utils/MD5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/service-util/src/main/java/com/atguigu/common/config/exception/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/service-util/src/main/java/com/atguigu/common/config/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/service-util/src/main/java/com/atguigu/common/config/exception/GuiguException.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/service-util/src/main/java/com/atguigu/common/config/exception/GuiguException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/service-util/src/main/java/com/atguigu/common/config/knife4j/Knife4jConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/service-util/src/main/java/com/atguigu/common/config/knife4j/Knife4jConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/service-util/src/main/java/com/atguigu/common/config/mp/MybatisPlusConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/service-util/src/main/java/com/atguigu/common/config/mp/MybatisPlusConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-oa/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/ServiceAuthApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/ServiceAuthApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/controller/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/controller/IndexController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/controller/SysMenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/controller/SysMenuController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/controller/SysRoleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/controller/SysRoleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/mapper/SysMenuMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/mapper/SysMenuMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/mapper/SysRoleMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/mapper/SysRoleMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/mapper/SysRoleMenuMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/mapper/SysRoleMenuMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/mapper/SysUserRoleMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/mapper/SysUserRoleMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/mapper/xml/SysMenuMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/mapper/xml/SysMenuMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/service/SysMenuService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/service/SysMenuService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/service/SysRoleMenuService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/service/SysRoleMenuService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/service/SysRoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/service/SysRoleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/service/SysUserRoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/service/SysUserRoleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/service/impl/SysMenuServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/service/impl/SysMenuServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/service/impl/SysRoleMenuServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/service/impl/SysRoleMenuServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/service/impl/SysRoleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/service/impl/SysRoleServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/service/impl/SysUserRoleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/service/impl/SysUserRoleServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/utils/MenuHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/utils/MenuHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-oa/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/src/main/resources/application-dev.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,9 +66,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Enum" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -38,7 +88,6 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/common/common-util/src/main/java/com/atguigu/common/result/Result.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/service/impl/SysRoleServiceImpl.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/common/common-util/src/main/java/com/atguigu/common/result/ResultCodeEnum.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/ServiceAuthApplication.java" root0="SKIP_INSPECTION" />
   </component>
@@ -72,13 +121,15 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/common/common-util/src/main/java/com/atguigu/common/utils" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/common/spring-security/src/main/java/com/atguigu/security" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -87,9 +138,15 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\developer_code\java_actual_project\guigu-oa-parent\common\spring-security\src\main\java\com\atguigu\security" />
+      <recent name="E:\developer_code\java_actual_project\guigu-oa-parent\service-oa\src\main\java\com\atguigu\auth" />
+      <recent name="E:\developer_code\java_actual_project\guigu-oa-parent\service-oa\src\main\java\com\atguigu\auth\controller" />
       <recent name="E:\developer_code\java_actual_project\guigu-oa-parent\common\common-util\src\main\java\com\atguigu\common\utils" />
       <recent name="E:\developer_code\java_actual_project\guigu-oa-parent\service-oa\src\test\java\com\atguigu\code" />
-      <recent name="E:\developer_code\java_actual_project\guigu-oa-parent\model\src\main\java\com" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.atguigu.security.custom" />
+      <recent name="com.atguigu.auth.controller" />
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.ServiceAuthApplication">
@@ -124,7 +181,7 @@
       <module name="common-util" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.atguigu.common.utils.*" />
+          <option name="PATTERN" value="com.atguigu.common.result.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -203,6 +260,9 @@
       <workItem from="1678186967234" duration="5089000" />
       <workItem from="1678263960312" duration="7024000" />
       <workItem from="1678274248799" duration="11403000" />
+      <workItem from="1678289634573" duration="845000" />
+      <workItem from="1678344248256" duration="13254000" />
+      <workItem from="1678363395853" duration="5191000" />
     </task>
     <task id="LOCAL-00001" summary="角色管理接口的实现">
       <created>1677757861446</created>
@@ -246,7 +306,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678190585339</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="权限管理模块-获取用户信息">
+      <created>1678289706801</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1678289706801</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -267,6 +334,63 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/common/spring-security/src/main/java/com/atguigu/security/filter/TokenLoginFilter.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/common/spring-security/src/main/java/com/atguigu/security/filter/TokenLoginFilter.java</url>
+          <line>77</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/common/spring-security/src/main/java/com/atguigu/security/filter/TokenLoginFilter.java</url>
+          <line>99</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/common/spring-security/src/main/java/com/atguigu/security/filter/TokenAuthenticationFilter.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/common/spring-security/src/main/java/com/atguigu/security/filter/TokenAuthenticationFilter.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/service/impl/UserDetailsServiceImpl.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/common/spring-security/src/main/java/com/atguigu/security/filter/TokenAuthenticationFilter.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/common/spring-security/src/main/java/com/atguigu/security/filter/TokenAuthenticationFilter.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/common/spring-security/src/main/java/com/atguigu/security/filter/TokenLoginFilter.java</url>
+          <line>91</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/common/spring-security/src/main/java/com/atguigu/security/filter/TokenLoginFilter.java</url>
+          <line>71</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/common/spring-security/src/main/java/com/atguigu/security/filter/TokenLoginFilter.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+      </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
           <properties notifyOnTerminate="true" exception="BaseException">

@@ -15,6 +15,7 @@ import springfox.documentation.spring.web.plugins.Docket;
 import springfox.documentation.swagger2.annotations.EnableSwagger2WebMvc;
 
 import java.util.ArrayList;
+import java.util.List;
 
 /**
  * @version 1.0
@@ -25,9 +26,10 @@ import java.util.ArrayList;
 @Configuration
 @EnableSwagger2WebMvc
 public class Knife4jConfig {
+
     @Bean
-    public Docket adminApiConfig() {
-        ArrayList<Parameter> pars = new ArrayList<>();
+    public Docket adminApiConfig(){
+        List<Parameter> pars = new ArrayList<>();
         ParameterBuilder tokenPar = new ParameterBuilder();
         tokenPar.name("token")
                 .description("用户token")
@@ -37,6 +39,8 @@ public class Knife4jConfig {
                 .required(false)
                 .build();
         pars.add(tokenPar.build());
+        //添加head参数end
+
         Docket adminApi = new Docket(DocumentationType.SWAGGER_2)
                 .groupName("adminApi")
                 .apiInfo(adminApiInfo())
@@ -49,7 +53,7 @@ public class Knife4jConfig {
         return adminApi;
     }
 
-    private ApiInfo adminApiInfo() {
+    private ApiInfo adminApiInfo(){
 
         return new ApiInfoBuilder()
                 .title("后台管理系统-API文档")
@@ -58,4 +62,6 @@ public class Knife4jConfig {
                 .contact(new Contact("atguigu", "http://atguigu.com", "atguigu@qq.com"))
                 .build();
     }
+
+
 }
