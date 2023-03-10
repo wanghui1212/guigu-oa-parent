@@ -1,9 +1,9 @@
-package com.atguigu.auth;
+package com.atguigu;
 
-import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.ComponentScan;
+
 
 /**
  * @version 1.0
@@ -12,7 +12,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @Create 2023-03-01 21:16
  */
 @SpringBootApplication
-@MapperScan("com.atguigu.auth.mapper")
 public class ServiceAuthApplication {
     public static void main(String[] args) {
         SpringApplication.run(ServiceAuthApplication.class, args);
