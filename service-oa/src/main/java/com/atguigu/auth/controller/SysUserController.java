@@ -5,6 +5,7 @@ import com.atguigu.auth.service.SysUserService;
 import com.atguigu.common.result.Result;
 import com.atguigu.common.utils.MD5;
 import com.atguigu.model.system.SysUser;
+import com.atguigu.vo.system.AssginRoleVo;
 import com.atguigu.vo.system.SysUserQueryVo;
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;

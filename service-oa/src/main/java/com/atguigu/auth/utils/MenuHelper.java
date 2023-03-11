@@ -5,14 +5,6 @@ import com.atguigu.model.system.SysMenu;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * @version 1.0
- * @Author wanghui
- * @Description  根据菜单表，构建菜单数据
- * @Create 2023-03-07 16:14
- *
- */
-
 public class MenuHelper {
     //使用递归方法建菜单
     public static List<SysMenu> buildTree(List<SysMenu> sysMenuList) {

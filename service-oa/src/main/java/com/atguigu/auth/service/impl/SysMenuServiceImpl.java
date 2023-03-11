@@ -1,24 +1,24 @@
 package com.atguigu.auth.service.impl;
 
-import com.atguigu.auth.mapper.SysMenuMapper;
-import com.atguigu.auth.service.SysMenuService;
 import com.atguigu.auth.service.SysRoleMenuService;
 import com.atguigu.auth.utils.MenuHelper;
 import com.atguigu.common.config.exception.GuiguException;
 import com.atguigu.model.system.SysMenu;
+import com.atguigu.auth.mapper.SysMenuMapper;
+import com.atguigu.auth.service.SysMenuService;
 import com.atguigu.model.system.SysRoleMenu;
 import com.atguigu.vo.system.AssginMenuVo;
 import com.atguigu.vo.system.MetaVo;
 import com.atguigu.vo.system.RouterVo;
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
+import com.baomidou.mybatisplus.extension.api.R;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.util.CollectionUtils;
 import org.springframework.util.StringUtils;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 import java.util.stream.Collectors;
 
 /**

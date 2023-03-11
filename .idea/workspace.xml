@@ -5,14 +5,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="78d758db-bffe-4602-a6a7-60abda24d756" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/process/bean/MyTaskListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/process/bean/UserBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/main/resources/process/jb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/main/resources/process/jiaban.bpmn20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/main/resources/process/jiaban.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/main/resources/process/jiaban01.bpmn20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/main/resources/process/jiaban02.bpmn20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/main/resources/process/jiaban02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/main/resources/process/jiaban03.bpmn20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/main/resources/process/jiaban03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/main/resources/process/jiaban04.bpmn20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/main/resources/process/qingjia.bpmn20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/main/resources/process/qingjia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/main/resources/process/qingjia002.bpmn20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/main/resources/process/qingjia003.bpmn20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/test/java/com/atguigu/auth/activiti/ProcessTest1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/test/java/com/atguigu/auth/activiti/ProcessTestGateway.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/spring-security/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/spring-security/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/spring-security/src/main/java/com/atguigu/security/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/spring-security/src/main/java/com/atguigu/security/WebSecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/spring-security/src/main/java/com/atguigu/security/filter/TokenAuthenticationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/spring-security/src/main/java/com/atguigu/security/filter/TokenAuthenticationFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/spring-security/src/main/java/com/atguigu/security/filter/TokenLoginFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/spring-security/src/main/java/com/atguigu/security/filter/TokenLoginFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/ServiceAuthApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/ServiceAuthApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/service/impl/UserDetailsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/service/impl/UserDetailsServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-oa/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/controller/SysRoleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/controller/SysRoleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/controller/SysUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/controller/SysUserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/mapper/xml/SysMenuMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/mapper/xml/SysMenuMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/service/impl/SysMenuServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/service/impl/SysMenuServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/service/impl/SysRoleMenuServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/service/impl/SysRoleMenuServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/service/impl/SysUserRoleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/service/impl/SysUserRoleServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/service/impl/SysUserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/service/impl/SysUserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/utils/MenuHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/utils/MenuHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-oa/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/src/main/resources/application-dev.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,6 +96,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -83,25 +106,25 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/common/spring-security/src/main/java/com/atguigu/security" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/service-oa/src/main/resources/process" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="project.structure.proportion" value="0.15546875" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\developer_code\java_actual_project\guigu-oa-parent\service-oa\src\main\resources\process" />
+      <recent name="E:\developer_code\java_actual_project\guigu-oa-parent\service-oa\src\main\java\com\atguigu" />
       <recent name="E:\developer_code\java_actual_project\guigu-oa-parent\common\spring-security\src\main\java\com\atguigu\security" />
       <recent name="E:\developer_code\java_actual_project\guigu-oa-parent\service-oa\src\main\java\com\atguigu\auth" />
       <recent name="E:\developer_code\java_actual_project\guigu-oa-parent\service-oa\src\main\java\com\atguigu\auth\controller" />
-      <recent name="E:\developer_code\java_actual_project\guigu-oa-parent\common\common-util\src\main\java\com\atguigu\common\utils" />
-      <recent name="E:\developer_code\java_actual_project\guigu-oa-parent\service-oa\src\test\java\com\atguigu\code" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.atguigu" />
@@ -111,73 +134,82 @@
       <recent name="com.atguigu.auth.controller" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.ServiceAuthApplication">
-    <configuration name="CodeGet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.code.CodeGet" />
+  <component name="RunManager" selected="JUnit.ProcessTestGateway.findTaskList">
+    <configuration name="ProcessTest1.startUpProcess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="service-oa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.atguigu.code.*" />
+          <option name="PATTERN" value="com.atguigu.auth.activiti.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JwtHelper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.common.jwt.JwtHelper" />
-      <module name="common-util" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.atguigu.common.jwt.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MD5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.common.utils.MD5" />
-      <module name="common-util" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.atguigu.common.result.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SysRoleServiceTest.testSelect1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="service-oa" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.atguigu.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.atguigu.auth" />
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.auth.SysRoleServiceTest" />
-      <option name="METHOD_NAME" value="testSelect1" />
+      <option name="PACKAGE_NAME" value="com.atguigu.auth.activiti" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.auth.activiti.ProcessTest1" />
+      <option name="METHOD_NAME" value="startUpProcess" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SysRoleServiceTest.testSelect2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ProcessTestGateway.completeTask" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="service-oa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.atguigu.*" />
+          <option name="PATTERN" value="com.atguigu.auth.activiti.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.atguigu.auth" />
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.auth.SysRoleServiceTest" />
-      <option name="METHOD_NAME" value="testSelect2" />
+      <option name="PACKAGE_NAME" value="com.atguigu.auth.activiti" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.auth.activiti.ProcessTestGateway" />
+      <option name="METHOD_NAME" value="completeTask" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProcessTestGateway.deployProcess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="service-oa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.auth.activiti.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.atguigu.auth.activiti" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.auth.activiti.ProcessTestGateway" />
+      <option name="METHOD_NAME" value="deployProcess" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProcessTestGateway.findTaskList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="service-oa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.auth.activiti.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.atguigu.auth.activiti" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.auth.activiti.ProcessTestGateway" />
+      <option name="METHOD_NAME" value="findTaskList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProcessTestGateway.startProcessInstance" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="service-oa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.auth.activiti.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.atguigu.auth.activiti" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.auth.activiti.ProcessTestGateway" />
+      <option name="METHOD_NAME" value="startProcessInstance" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -191,20 +223,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.CodeGet" />
-      <item itemvalue="Application.JwtHelper" />
-      <item itemvalue="Application.MD5" />
-      <item itemvalue="JUnit.SysRoleServiceTest.testSelect1" />
-      <item itemvalue="JUnit.SysRoleServiceTest.testSelect2" />
       <item itemvalue="Spring Boot.ServiceAuthApplication" />
+      <item itemvalue="JUnit.ProcessTest1.startUpProcess" />
+      <item itemvalue="JUnit.ProcessTestGateway.deployProcess" />
+      <item itemvalue="JUnit.ProcessTestGateway.startProcessInstance" />
+      <item itemvalue="JUnit.ProcessTestGateway.findTaskList" />
+      <item itemvalue="JUnit.ProcessTestGateway.completeTask" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MD5" />
-        <item itemvalue="Application.JwtHelper" />
-        <item itemvalue="Application.CodeGet" />
-        <item itemvalue="JUnit.SysRoleServiceTest.testSelect2" />
-        <item itemvalue="JUnit.SysRoleServiceTest.testSelect1" />
+        <item itemvalue="JUnit.ProcessTestGateway.findTaskList" />
+        <item itemvalue="JUnit.ProcessTestGateway.completeTask" />
+        <item itemvalue="JUnit.ProcessTestGateway.startProcessInstance" />
+        <item itemvalue="JUnit.ProcessTestGateway.deployProcess" />
+        <item itemvalue="JUnit.ProcessTest1.startUpProcess" />
       </list>
     </recent_temporary>
   </component>
@@ -233,6 +265,7 @@
       <workItem from="1678289634573" duration="845000" />
       <workItem from="1678344248256" duration="13254000" />
       <workItem from="1678363395853" duration="5191000" />
+      <workItem from="1678499300017" duration="9376000" />
     </task>
     <task id="LOCAL-00001" summary="角色管理接口的实现">
       <created>1677757861446</created>
@@ -283,7 +316,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678289706801</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="权限管理模块-用户授权">
+      <created>1678420164772</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1678420164772</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -311,7 +351,8 @@
     <MESSAGE value="用户管理模块的给用户分配角色和更改用户状态" />
     <MESSAGE value="菜单管理模块" />
     <MESSAGE value="权限管理模块-获取用户信息" />
-    <option name="LAST_COMMIT_MESSAGE" value="权限管理模块-获取用户信息" />
+    <MESSAGE value="权限管理模块-用户授权" />
+    <option name="LAST_COMMIT_MESSAGE" value="权限管理模块-用户授权" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

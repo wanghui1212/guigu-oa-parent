@@ -1,8 +1,8 @@
 package com.atguigu.auth.service.impl;
 
+import com.atguigu.model.system.SysUser;
 import com.atguigu.auth.mapper.SysUserMapper;
 import com.atguigu.auth.service.SysUserService;
-import com.atguigu.model.system.SysUser;
 import com.atguigu.security.custom.LoginUserInfoHelper;
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
