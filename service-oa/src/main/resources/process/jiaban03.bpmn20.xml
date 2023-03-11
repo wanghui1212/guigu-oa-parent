@@ -4,7 +4,7 @@
     <startEvent id="sid-78516ADB-D1DC-499D-8162-FD5394CEF22E"></startEvent>
     <userTask id="sid-14B5011C-A416-48FE-A827-9864E9B1B1DC" name="经理审批">
       <extensionElements>
-        <activiti:taskListener event="create" class="com.atguigu.process.bean.MyTaskListener"></activiti:taskListener>
+        <activiti:taskListener event="create" class="com.atguigu.auth.activiti.MyTaskListener"></activiti:taskListener>
       </extensionElements>
     </userTask>
     <sequenceFlow id="sid-9B2DBAD7-CDCA-495C-9836-9EA605BDDD1A" sourceRef="sid-78516ADB-D1DC-499D-8162-FD5394CEF22E" targetRef="sid-14B5011C-A416-48FE-A827-9864E9B1B1DC"></sequenceFlow>

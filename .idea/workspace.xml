@@ -4,37 +4,76 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="78d758db-bffe-4602-a6a7-60abda24d756" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/process/bean/MyTaskListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/process/bean/UserBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-oa/src/main/resources/process/jb.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-oa/src/main/resources/process/jiaban.bpmn20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-oa/src/main/resources/process/jiaban.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-oa/src/main/resources/process/jiaban01.bpmn20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-oa/src/main/resources/process/jiaban02.bpmn20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-oa/src/main/resources/process/jiaban02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-oa/src/main/resources/process/jiaban03.bpmn20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-oa/src/main/resources/process/jiaban03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-oa/src/main/resources/process/jiaban04.bpmn20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-oa/src/main/resources/process/qingjia.bpmn20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-oa/src/main/resources/process/qingjia.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-oa/src/main/resources/process/qingjia002.bpmn20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-oa/src/main/resources/process/qingjia003.bpmn20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-oa/src/test/java/com/atguigu/auth/activiti/ProcessTest1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-oa/src/test/java/com/atguigu/auth/activiti/ProcessTestGateway.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="78d758db-bffe-4602-a6a7-60abda24d756" name="Changes" comment="审批设置与公众号管理">
+      <change afterPath="$PROJECT_DIR$/model/target/classes/com/atguigu/model/base/BaseEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/target/classes/com/atguigu/model/process/Process.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/target/classes/com/atguigu/model/process/ProcessRecord.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/target/classes/com/atguigu/model/process/ProcessTemplate.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/target/classes/com/atguigu/model/process/ProcessType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/target/classes/com/atguigu/model/system/SysMenu.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/target/classes/com/atguigu/model/system/SysRole.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/target/classes/com/atguigu/model/system/SysRoleMenu.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/target/classes/com/atguigu/model/system/SysUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/target/classes/com/atguigu/model/system/SysUserRole.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/target/classes/com/atguigu/model/wechat/Menu.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/target/classes/com/atguigu/vo/process/ApprovalVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/target/classes/com/atguigu/vo/process/ProcessFormVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/target/classes/com/atguigu/vo/process/ProcessQueryVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/target/classes/com/atguigu/vo/process/ProcessVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/target/classes/com/atguigu/vo/system/AssginMenuVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/target/classes/com/atguigu/vo/system/AssginRoleVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/target/classes/com/atguigu/vo/system/LoginVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/target/classes/com/atguigu/vo/system/MetaVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/target/classes/com/atguigu/vo/system/RouterVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/target/classes/com/atguigu/vo/system/SysRoleQueryVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/target/classes/com/atguigu/vo/system/SysUserQueryVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/target/classes/com/atguigu/vo/wechat/BindPhoneVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/target/classes/com/atguigu/vo/wechat/MenuVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/s RETURN)" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/process/controller/OaProcessController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/process/controller/OaProcessTemplateController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/process/controller/OaProcessTypeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/process/controller/api/ProcessController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/process/controller/api/WechatController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/process/mapper/OaProcessMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/process/mapper/OaProcessRecordMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/process/mapper/OaProcessTemplateMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/process/mapper/OaProcessTypeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/process/mapper/xml/OaProcessMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/process/mapper/xml/OaProcessRecordMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/process/mapper/xml/OaProcessTemplateMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/process/mapper/xml/OaProcessTypeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/process/service/MessageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/process/service/OaProcessRecordService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/process/service/OaProcessService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/process/service/OaProcessTemplateService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/process/service/OaProcessTypeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/process/service/impl/MessageServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/process/service/impl/OaProcessRecordServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/process/service/impl/OaProcessServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/process/service/impl/OaProcessTemplateServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/process/service/impl/OaProcessTypeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/wechat/config/WeChatMpConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/wechat/config/WechatAccountConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/wechat/controller/MenuController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/wechat/mapper/MenuMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/wechat/mapper/xml/MenuMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/wechat/service/MenuService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/wechat/service/impl/MenuServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/atguigu/model/system/SysDept.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/atguigu/model/system/SysLoginLog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/atguigu/model/system/SysOperLog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/atguigu/model/system/SysPost.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/atguigu/vo/system/MetaVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/vo/system/MetaVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/atguigu/vo/system/SysLoginLogQueryVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/atguigu/vo/system/SysOperLogQueryVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/atguigu/vo/system/SysPostQueryVo.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/service-oa/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/controller/SysRoleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/controller/SysRoleController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/controller/SysUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/controller/SysUserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/mapper/xml/SysMenuMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/mapper/xml/SysMenuMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/service/impl/SysMenuServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/service/impl/SysMenuServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/service/impl/SysRoleMenuServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/service/impl/SysRoleMenuServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/service/impl/SysUserRoleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/service/impl/SysUserRoleServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/service/impl/SysUserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/service/impl/SysUserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/utils/MenuHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/utils/MenuHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/process/bean/MyTaskListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/src/test/java/com/atguigu/auth/activiti/MyTaskListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/process/bean/UserBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/src/test/java/com/atguigu/auth/activiti/UserBean.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service-oa/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/src/main/resources/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-oa/src/main/resources/process/jiaban03.bpmn20.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/src/main/resources/process/jiaban03.bpmn20.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +145,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/service-oa/src/main/resources/process" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -115,26 +154,31 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15546875" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="Push.Settings">
+    <option name="SHOW_DETAILS_PANEL" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\developer_code\java_actual_project\guigu-oa-parent\service-oa\src\main\resources\process" />
       <recent name="E:\developer_code\java_actual_project\guigu-oa-parent\service-oa\src\main\java\com\atguigu" />
+      <recent name="E:\developer_code\java_actual_project\guigu-oa-parent\service-oa\src\main\java\com\atguigu\process" />
+      <recent name="E:\developer_code\java_actual_project\guigu-oa-parent\service-oa\src\main\resources\process" />
       <recent name="E:\developer_code\java_actual_project\guigu-oa-parent\common\spring-security\src\main\java\com\atguigu\security" />
       <recent name="E:\developer_code\java_actual_project\guigu-oa-parent\service-oa\src\main\java\com\atguigu\auth" />
-      <recent name="E:\developer_code\java_actual_project\guigu-oa-parent\service-oa\src\main\java\com\atguigu\auth\controller" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.atguigu" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.atguigu.vo.system" />
+      <recent name="com.atguigu.model.system" />
       <recent name="com.atguigu.security.custom" />
       <recent name="com.atguigu.auth.controller" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ProcessTestGateway.findTaskList">
+  <component name="RunManager" selected="Spring Boot.ServiceAuthApplication">
     <configuration name="ProcessTest1.startUpProcess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="service-oa" />
       <extension name="coverage">
@@ -265,7 +309,7 @@
       <workItem from="1678289634573" duration="845000" />
       <workItem from="1678344248256" duration="13254000" />
       <workItem from="1678363395853" duration="5191000" />
-      <workItem from="1678499300017" duration="9376000" />
+      <workItem from="1678499300017" duration="14875000" />
     </task>
     <task id="LOCAL-00001" summary="角色管理接口的实现">
       <created>1677757861446</created>
@@ -323,7 +367,35 @@
       <option name="project" value="LOCAL" />
       <updated>1678420164772</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="activiti配置">
+      <created>1678522963439</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1678522963439</updated>
+    </task>
+    <task id="LOCAL-00010" summary="审批设置与公众号管理，公众号未实现">
+      <created>1678527654258</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1678527654258</updated>
+    </task>
+    <task id="LOCAL-00011" summary="审批设置与公众号管理">
+      <created>1678527825183</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1678527825183</updated>
+    </task>
+    <task id="LOCAL-00012" summary="审批设置与公众号管理">
+      <created>1678528309179</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1678528309179</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -352,7 +424,10 @@
     <MESSAGE value="菜单管理模块" />
     <MESSAGE value="权限管理模块-获取用户信息" />
     <MESSAGE value="权限管理模块-用户授权" />
-    <option name="LAST_COMMIT_MESSAGE" value="权限管理模块-用户授权" />
+    <MESSAGE value="activiti配置" />
+    <MESSAGE value="审批设置与公众号管理，公众号未实现" />
+    <MESSAGE value="审批设置与公众号管理" />
+    <option name="LAST_COMMIT_MESSAGE" value="审批设置与公众号管理" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

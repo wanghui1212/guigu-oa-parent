@@ -1,4 +1,4 @@
-package com.atguigu.process.bean;
+package com.atguigu.auth.activiti;
 
 import org.activiti.engine.delegate.DelegateTask;
 import org.activiti.engine.delegate.TaskListener;
